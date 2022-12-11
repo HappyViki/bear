@@ -1,0 +1,37 @@
+#controls {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#controls button {
+    width: 200px;
+    font-size: xx-large;
+    margin: 16px auto;
+}
+.row {
+    font-size: 0;
+}
+.box {
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: text-bottom; /* fixes placement of boxes */
+}
+.path {
+    background: greenyellow;
+}
+.honey {
+    border-radius: 15px;
+    background: yellow;
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    border: 1px solid #000;
+}
+.player {
+    background: brown;
+}
+.foe {
+    background: blueviolet;
+}
